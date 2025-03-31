@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Викторина</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="topic-container">
+        <h1>Выберите тему викторины</h1>
+    </div>
+
+    <div id="quiz-container" style="display: none;">
+        <h1>Викторина</h1>
+        <div id="question"></div>
+        <div id="answers"></div>
+        <button id="next" style="display: none;">Следующий вопрос</button>
+    </div>
+
+    <div id="result-container" style="display: none;">
+        <h2>Результаты</h2>
+        <p id="result"></p>
+        <button id="restart">Начать заново</button>
+    </div>
+
+    <div id="timer"></div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
