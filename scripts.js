@@ -36,15 +36,8 @@ document.addEventListener("DOMContentLoaded", function () {
     const resultText = document.getElementById("result");
     const restartButton = document.getElementById("restart");
     
-    const timerElement = document.createElement("div");
-    timerElement.id = "timer";
-    document.body.appendChild(timerElement);
+    const timerElement = document.getElementById("timer");
 
-    timerElement.style.position = "absolute";
-    timerElement.style.top = "10px";
-    timerElement.style.right = "10px";
-    timerElement.style.fontSize = "20px";
-    timerElement.style.fontWeight = "bold";
 
     function startTimer() {
         let timeLeft = timeLimit;
