@@ -39,3 +39,10 @@ button.wrong {
 button:hover {
     opacity: 0.8;
 }
+
+#timer {
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: bold;
+    color: #000000;
+}
